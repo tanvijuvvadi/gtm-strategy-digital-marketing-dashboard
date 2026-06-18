@@ -1,0 +1,22 @@
+CREATE TABLE Product_Launch_GTM (
+    Product_ID VARCHAR(10),
+    Product_Name VARCHAR(100),
+    Product_Category VARCHAR(50),
+    Target_Market VARCHAR(50),
+    Customer_Segment VARCHAR(50),
+    Region VARCHAR(50),
+    Competitor_Name VARCHAR(100),
+    Competitor_Price DECIMAL(10,2),
+    Product_Price DECIMAL(10,2),
+    Marketing_Channel VARCHAR(50),
+    Campaign_Budget DECIMAL(12,2),
+    Expected_Leads INT,
+    Expected_Conversions INT,
+    Conversion_Rate DECIMAL(5,2),
+    Customer_Acquisition_Cost DECIMAL(10,2),
+    Revenue_Forecast DECIMAL(15,2),
+    Market_Demand_Score INT,
+    Product_Readiness_Score INT,
+    Launch_Phase VARCHAR(30),
+    GTM_Status VARCHAR(30)
+);

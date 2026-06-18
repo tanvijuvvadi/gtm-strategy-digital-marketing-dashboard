@@ -1,0 +1,5 @@
+SELECT
+Customer_Segment,
+SUM(Expected_Conversions) Total_Conversions
+FROM Product_Launch_GTM
+GROUP BY Customer_Segment;
